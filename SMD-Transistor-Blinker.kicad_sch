@@ -714,6 +714,102 @@
 				)
 			)
 		)
+		(symbol "PWR_FLAG_1"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_1_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Transistor_BJT:BC846"
 			(pin_names
 				(offset 0) hide)
@@ -906,9 +1002,9 @@
 		)
 		(symbol "power:+12V"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1006,8 +1102,8 @@
 			(symbol "+12V_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+12V"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,9 +1122,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1102,8 +1198,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1185,7 +1281,7 @@
 				(pin power_out line
 					(at 0 0 90)
 					(length 0)
-					(name "pwr"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1236,22 +1332,10 @@
 		(uuid "366febb0-4847-4fb7-bd46-05ac106e8109")
 	)
 	(junction
-		(at 148.59 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "375efad2-82b1-4514-a23d-86e5cb67d542")
-	)
-	(junction
 		(at 217.17 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38c639c6-810b-41d2-a8c4-136acadbbecc")
-	)
-	(junction
-		(at 148.59 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d1db5d1-f2a9-40b7-ad43-157864b2a73b")
 	)
 	(junction
 		(at 203.2 81.28)
@@ -1266,10 +1350,22 @@
 		(uuid "856dce48-9781-47a3-8db7-b1d189c8bedc")
 	)
 	(junction
+		(at 166.37 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9bcb4950-c355-4dd1-9fc2-53f661b9a4d0")
+	)
+	(junction
 		(at 203.2 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a748bff8-482f-499f-aa3a-e18758501184")
+	)
+	(junction
+		(at 166.37 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b512bbfd-3138-4940-a50d-5c57aa6f313d")
 	)
 	(junction
 		(at 179.07 100.33)
@@ -1285,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 105.41) (xy 148.59 124.46)
+			(xy 166.37 105.41) (xy 166.37 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1451,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 102.87) (xy 148.59 81.28)
+			(xy 166.37 102.87) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1415,6 +1511,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 124.46) (xy 179.07 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b554893-6f5c-47b6-ae9e-5ff1a395d6d3")
+	)
+	(wire
+		(pts
 			(xy 186.69 113.03) (xy 190.5 113.03)
 		)
 		(stroke
@@ -1465,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 105.41) (xy 148.59 105.41)
+			(xy 160.02 105.41) (xy 166.37 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 124.46) (xy 217.17 124.46)
+			(xy 222.25 124.46) (xy 217.17 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1525,16 +1631,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 124.46) (xy 179.07 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c56f3437-f509-4cdf-9df0-7f13fd3c8e9c")
-	)
-	(wire
-		(pts
 			(xy 190.5 100.33) (xy 190.5 88.9)
 		)
 		(stroke
@@ -1545,23 +1641,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 102.87) (xy 148.59 102.87)
+			(xy 160.02 102.87) (xy 166.37 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d36ea183-9fc0-43ec-8c30-ce9ca4b95310")
-	)
-	(wire
-		(pts
-			(xy 148.59 81.28) (xy 179.07 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4e814fa-02e9-4e4b-9b8e-7c44c3aab99c")
 	)
 	(wire
 		(pts
@@ -1573,50 +1659,15 @@
 		)
 		(uuid "f1e40c41-7685-4b72-960d-e3480b5c93c0")
 	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 153.67 81.28 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 179.07 81.28)
 		)
-		(uuid "3ff23c3b-75b7-4c22-aac0-f002bbe0182d")
-		(property "Netclass" "supply"
-			(at 154.3685 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 156.21 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cd1b662d-f731-4958-92d4-fd3566504b5f")
-		(property "Netclass" "supply"
-			(at 155.702 126.746 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
+		(uuid "f5467298-d4d5-4dcd-91fd-c87d2094c098")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1689,8 +1740,9 @@
 		)
 	)
 	(symbol
+		(lib_name "PWR_FLAG_1")
 		(lib_id "power:PWR_FLAG")
-		(at 148.59 124.46 180)
+		(at 166.37 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1699,7 +1751,7 @@
 		(fields_autoplaced yes)
 		(uuid "337a30ee-5b7f-4215-904d-0661ff66dfb0")
 		(property "Reference" "#FLG02"
-			(at 148.59 126.365 0)
+			(at 166.37 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,7 +1760,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 148.59 129.54 0)
+			(at 166.37 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1768,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 124.46 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1777,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 124.46 0)
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1733,8 +1785,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 148.59 124.46 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,6 +1853,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 217.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
 			(at 217.17 95.25 0)
 			(effects
 				(font
@@ -1878,6 +1948,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "D"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 179.07 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9ee3646b-abb0-4695-90f1-02776aee195e")
 		)
@@ -1938,7 +2026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
 			(at 179.07 76.2 0)
 			(effects
 				(font
@@ -2031,16 +2119,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 124.46 105.41 0)
+		(at 154.94 105.41 0)
 		(mirror x)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "77b332d9-fa81-4625-a53a-79dbbfc842cb")
 		(property "Reference" "J1"
-			(at 125.095 110.49 0)
+			(at 155.575 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2136,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 125.095 107.95 0)
+			(at 155.575 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2144,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 124.46 105.41 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2065,7 +2153,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 105.41 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2074,7 +2162,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 105.41 0)
+			(at 154.94 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2212,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 179.07 128.27 0)
 			(effects
 				(font
@@ -2303,16 +2391,16 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 252.73 124.46 0)
+		(at 226.06 124.46 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9cd7bb9-dd02-4d9b-afdb-c4c7a8189f6e")
 		(property "Reference" "J4"
-			(at 255.27 123.1899 0)
+			(at 228.6 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,7 +2409,7 @@
 			)
 		)
 		(property "Value" "PINHD_1x1_Male"
-			(at 255.27 125.7299 0)
+			(at 228.6 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2330,7 +2418,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 254 127 0)
+			(at 227.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2339,7 +2427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 118.11 0)
+			(at 226.06 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2436,7 @@
 			)
 		)
 		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 252.73 124.46 0)
+			(at 226.06 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2458,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 148.59 81.28 0)
+		(at 166.37 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2379,7 +2467,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac774e98-c180-470e-ba20-2dbfbaaea9e6")
 		(property "Reference" "#FLG01"
-			(at 148.59 79.375 0)
+			(at 166.37 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2476,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 148.59 77.47 0)
+			(at 166.37 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2484,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2405,7 +2493,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 81.28 0)
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2413,8 +2501,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 148.59 81.28 0)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 166.37 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2493,6 +2581,33 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" "NPN"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 181.61 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "896a2cc9-7999-4eb2-98e8-376a2c68d266")
 		)
@@ -2561,6 +2676,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "VBIC"
+			(at 214.63 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
 			(at 214.63 113.03 0)
 			(effects
 				(font

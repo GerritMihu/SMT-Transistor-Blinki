@@ -491,10 +491,7 @@
       "version": 3
     },
     "net_colors": null,
-    "netclass_assignments": {
-      "+12V": "supply",
-      "GND": "supply"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -603,7 +600,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 0,
+      "model_mode": 4,
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
