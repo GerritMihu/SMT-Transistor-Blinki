@@ -1230,7 +1230,13 @@
 		(uuid "2f613ba9-ee10-4fb6-a5c0-67ad3de4a1fa")
 	)
 	(junction
-		(at 161.29 81.28)
+		(at 217.17 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "366febb0-4847-4fb7-bd46-05ac106e8109")
+	)
+	(junction
+		(at 148.59 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "375efad2-82b1-4514-a23d-86e5cb67d542")
@@ -1242,16 +1248,10 @@
 		(uuid "38c639c6-810b-41d2-a8c4-136acadbbecc")
 	)
 	(junction
-		(at 161.29 124.46)
+		(at 148.59 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d1db5d1-f2a9-40b7-ad43-157864b2a73b")
-	)
-	(junction
-		(at 217.17 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5af4204f-3d82-439b-b4a5-f98d33af928b")
 	)
 	(junction
 		(at 203.2 81.28)
@@ -1285,7 +1285,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 105.41) (xy 161.29 124.46)
+			(xy 148.59 105.41) (xy 148.59 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1355,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 102.87) (xy 161.29 81.28)
+			(xy 148.59 102.87) (xy 148.59 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1465,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 105.41) (xy 161.29 105.41)
+			(xy 129.54 105.41) (xy 148.59 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1495,6 +1495,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 124.46) (xy 217.17 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0353521-b45c-4a83-9500-ea81609c6dc8")
+	)
+	(wire
+		(pts
 			(xy 190.5 100.33) (xy 203.2 113.03)
 		)
 		(stroke
@@ -1515,7 +1525,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 124.46) (xy 179.07 124.46)
+			(xy 148.59 124.46) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1535,7 +1545,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 102.87) (xy 161.29 102.87)
+			(xy 129.54 102.87) (xy 148.59 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1545,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 81.28) (xy 179.07 81.28)
+			(xy 148.59 81.28) (xy 179.07 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1576,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 170.18 81.28 0)
+		(at 153.67 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1576,7 +1586,7 @@
 		)
 		(uuid "3ff23c3b-75b7-4c22-aac0-f002bbe0182d")
 		(property "Netclass" "supply"
-			(at 170.8785 78.74 0)
+			(at 154.3685 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1589,23 +1599,22 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 168.91 124.46 0)
-		(fields_autoplaced yes)
+		(at 156.21 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cd1b662d-f731-4958-92d4-fd3566504b5f")
 		(property "Netclass" "supply"
-			(at 169.6085 121.92 0)
+			(at 155.702 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
@@ -1681,7 +1690,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 124.46 180)
+		(at 148.59 124.46 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1690,7 +1699,7 @@
 		(fields_autoplaced yes)
 		(uuid "337a30ee-5b7f-4215-904d-0661ff66dfb0")
 		(property "Reference" "#FLG02"
-			(at 161.29 126.365 0)
+			(at 148.59 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1699,7 +1708,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 161.29 129.54 0)
+			(at 148.59 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1716,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 124.46 0)
+			(at 148.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1725,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 124.46 0)
+			(at 148.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1734,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 124.46 0)
+			(at 148.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,10 +1832,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5207645f-93d1-4522-8efa-7f31a0501b9e")
 		(property "Reference" "D2"
-			(at 182.88 96.2025 90)
+			(at 173.482 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1835,7 +1843,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 182.88 98.7425 90)
+			(at 173.482 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +2031,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 137.16 105.41 0)
+		(at 124.46 105.41 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2032,7 +2040,7 @@
 		(dnp no)
 		(uuid "77b332d9-fa81-4625-a53a-79dbbfc842cb")
 		(property "Reference" "J1"
-			(at 137.795 110.49 0)
+			(at 125.095 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,7 +2048,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 137.795 107.95 0)
+			(at 125.095 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2056,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 137.16 105.41 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2065,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 105.41 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 105.41 0)
+			(at 124.46 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2295,7 +2303,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Male")
-		(at 217.17 128.27 270)
+		(at 252.73 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2304,7 +2312,7 @@
 		(fields_autoplaced yes)
 		(uuid "a9cd7bb9-dd02-4d9b-afdb-c4c7a8189f6e")
 		(property "Reference" "J4"
-			(at 219.71 126.8749 90)
+			(at 255.27 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2321,7 @@
 			)
 		)
 		(property "Value" "PINHD_1x1_Male"
-			(at 219.71 129.4149 90)
+			(at 255.27 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2322,7 +2330,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 214.63 129.54 0)
+			(at 254 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 223.52 128.27 0)
+			(at 252.73 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2348,7 @@
 			)
 		)
 		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -1"
-			(at 217.17 128.27 0)
+			(at 252.73 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2370,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 161.29 81.28 0)
+		(at 148.59 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2371,7 +2379,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac774e98-c180-470e-ba20-2dbfbaaea9e6")
 		(property "Reference" "#FLG01"
-			(at 161.29 79.375 0)
+			(at 148.59 79.375 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2388,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 161.29 77.47 0)
+			(at 148.59 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 81.28 0)
+			(at 148.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,7 +2405,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 81.28 0)
+			(at 148.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 81.28 0)
+			(at 148.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
