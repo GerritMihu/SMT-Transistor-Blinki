@@ -5,15 +5,15 @@
 
 | Component | Value | Supplier | Link |
 
-| Kondensator | 10µF | Mouser | https://www.mouser.at/ProductDetail/Murata-Electronics/GCM31CD71H106KE36L?qs=By6Nw2ByBD1oHD3I3aH59w%3D%3D|
+| Kondensator | 10µF | Mouser | https://www.mouser.at/ProductDetail/Murata-Electronics/GCM31CD71H106KE36L?qs=By6Nw2ByBD1oHD3I3aH59w%3D%3D |
 
-| Widerstand | 1kΩ | Mouser | https://www.mouser.at/ProductDetail/Bourns/CR0805AFX-1001EAS?qs=mAH9sUMRCtuBEx1SCnbzgg%3D%3D|
+| Widerstand | 1kΩ | Mouser | https://www.mouser.at/ProductDetail/Bourns/CR0805AFX-1001EAS?qs=mAH9sUMRCtuBEx1SCnbzgg%3D%3D |
 
-| Widerstand | 120kΩ | Mouser |https://www.mouser.at/ProductDetail/Bourns/CR0805-JW-124ELF?qs=sGAEpiMZZMukHu%252BjC5l7YeS2YHLDsUik0yZ2uigiNW8%3D|
+| Widerstand | 120kΩ | Mouser |https://www.mouser.at/ProductDetail/Bourns/CR0805-JW-124ELF?qs=sGAEpiMZZMukHu%252BjC5l7YeS2YHLDsUik0yZ2uigiNW8%3D |
 
-| LED | RED | Mouser | https://www.mouser.at/ProductDetail/Lumileds/L150-50805006000H0?qs=MyNHzdoqoQIdcy00zd2cLQ%3D%3D|
+| LED | RED | Mouser | https://www.mouser.at/ProductDetail/Lumileds/L150-50805006000H0?qs=MyNHzdoqoQIdcy00zd2cLQ%3D%3D |
 
-| Transistor | BC846 | Mouser |https://www.mouser.at/ProductDetail/Nexperia/BC846215?qs=me8TqzrmIYXkX1bWZY2EVg%3D%3D|
+| Transistor | BC846 | Mouser |https://www.mouser.at/ProductDetail/Nexperia/BC846215?qs=me8TqzrmIYXkX1bWZY2EVg%3D%3D |
 
 ## Bauteileerklärung:
 
