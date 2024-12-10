@@ -23,19 +23,19 @@
 
 ### Widerstände:
 
-Ein Widerstand (auch R gennant) ist ein elektronisches Bauteil, das den Stromfluss in einem Stromkreis begrenzt oder reguliert. Er wandelt einen Teil der elektrischen Energie in Wärme um und beeinflusst so, wie viel Strom durch einen bestimmten Teil eines Stromkreises fließen kann.
+Ein Widerstand (R1-R4) ist ein elektronisches Bauteil, das den Stromfluss in einem Stromkreis begrenzt oder reguliert. Er wandelt einen Teil der elektrischen Energie in Wärme um und beeinflusst so, wie viel Strom durch einen bestimmten Teil eines Stromkreises fließen kann.
 
 ### Kondensator: 
 
-Ein Kondensator ist ein elektronisches Bauteil, das elektrische Energie speichert. Er besteht aus zwei leitfähigen Flächen, den sogenannten Platten, die durch ein Isoliermaterial (das Dielektrikum) voneinander getrennt sind. Die Hauptfunktion eines Kondensators ist es, Ladung zu speichern und bei Bedarf wieder abzugeben.
+Ein Kondensator (C1 & C2) ist ein elektronisches Bauteil, das elektrische Energie speichert. Er besteht aus zwei leitfähigen Flächen, den sogenannten Platten, die durch ein Isoliermaterial (das Dielektrikum) voneinander getrennt sind. Die Hauptfunktion eines Kondensators ist es, Ladung zu speichern und bei Bedarf wieder abzugeben.
 
 ### LED: 
 
-Eine LED (Lichtemittierende Diode) ist ein elektronisches Bauteil, das Licht erzeugt, wenn elektrischer Strom durch es hindurchfließt.
+Eine LED (Light Emitting Diode D1 & D2) ist ein elektronisches Bauteil, das Licht erzeugt, wenn elektrischer Strom durch es hindurchfließt.
 
 ### Transistor:
 
-Ein Transistor ist ein elektronisches Bauteil, das als Schalter oder Verstärker fungiert. Er besteht aus Halbleitermaterialien und hat drei Anschlüsse: Emitter, Basis und Kollektor. Transistoren sind sehr wichtig für die Elektronik, da sie den Stromfluss steuern und Verstärkungsfunktionen ermöglichen.
+Ein Transistor (Q1 & Q2) ist ein elektronisches Bauteil, das als Schalter oder Verstärker fungiert. Er besteht aus Halbleitermaterialien und hat drei Anschlüsse: Emitter, Basis und Kollektor. Transistoren sind sehr wichtig für die Elektronik, da sie den Stromfluss steuern und Verstärkungsfunktionen ermöglichen.
 
 ## Schaltungserklärung:
 
@@ -63,6 +63,8 @@ Lötsaugpumpe, Lötsauglitze
 
 ### Ablauf
 
+Sie können dieses HTML Dokument als unterstützung nutzen um hier ihren Fortschritt zu dokumentieren: [BOM](./bom/SMD-Transistor-Blinker-ibom.html)
+
 Lötzinn auf der Platine: Setze eine kleine Menge Lötzinn an einem der Lötpads an, um es vorzubereiten.
 
 Platziere das SMD-Bauteil an der vorgesehenen Stelle auf der Platine mit einer Pinzette. Achte darauf, dass es korrekt ausgerichtet ist (markierte Seiten beachten).
@@ -71,25 +73,25 @@ Erhitze das Bauteil: Halte die Spitze des Lötkolbens für ca. 3-10 Sekunden auf
 
 Überprüfe die Lötstelle: Die Lötverbindung sollte glänzend und gleichmäßig sein. Vermeide kalte Lötstellen oder Lötbrücken.
 
-# Englisch:
+# English:
 
 ## Component explanation:
 
 ### Resistors:
 
-A resistor (also called R) is an electronic component that limits or regulates the flow of current in a circuit. It converts some electrical energy into heat, influencing how much current can flow through a particular part of a circuit.
+A resistor (R1-R4) is an electronic component that limits or regulates the flow of current in a circuit. It converts some electrical energy into heat, influencing how much current can flow through a particular part of a circuit.
 
 ### Capacitor: 
 
-A capacitor is an electronic component that stores electrical energy. It consists of two conductive surfaces, called plates, which are separated from each other by an insulating material (the dielectric). The main function of a capacitor is to store charge and release it when needed.
+A capacitor (C1 & C2)is an electronic component that stores electrical energy. It consists of two conductive surfaces, called plates, which are separated from each other by an insulating material (the dielectric). The main function of a capacitor is to store charge and release it when needed.
 
 ### LED:
 
-An LED (Light Emitting Diode) is an electronic component that produces light when electric current flows through it.
+An LED (Light Emitting Diode D1 & D2) is an electronic component that produces light when electric current flows through it.
 
 ### Transistor: 
 
-A transistor is an electronic component that functions as a switch or amplifier. It is made of semiconductor materials and has three connections: emitter, base and collector. Transistors are very important in electronics because they control the flow of current and enable amplification functions.
+A transistor (Q1 & Q2) is an electronic component that functions as a switch or amplifier. It is made of semiconductor materials and has three connections: emitter, base and collector. Transistors are very important in electronics because they control the flow of current and enable amplification functions.
 
 ## Circuit explanation:
 
@@ -116,6 +118,9 @@ J1 is the input, this is where the voltage is applied. Either you use two-pin pi
 6. Solder suction pump, solder suction wire
 
 ### Soldering on the board:
+
+You can use this dokument to help you with the placement process: [BOM](./bom/SMD-Transistor-Blinker-ibom.html)
+
 
 Apply a small amount of solder to one of the soldering pads to prepare it.
 
