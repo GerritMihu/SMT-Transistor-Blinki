@@ -11,6 +11,14 @@
 | LED | RED | Mouser | https://www.mouser.at/ProductDetail/Lumileds/L150-50805006000H0?qs=MyNHzdoqoQIdcy00zd2cLQ%3D%3D |
 | Transistor | BC846 | Mouser |https://www.mouser.at/ProductDetail/Nexperia/BC846215?qs=me8TqzrmIYXkX1bWZY2EVg%3D%3D |
 
+## Leiterplatte / PCBA 
+
+![PCBA](./Pics/SMD-Transistor-Blinker.png)
+
+## Schaltung / Circuit
+
+![Schaltungs Preview](./Pics/Schaltplan_pic.png)
+
 ## Bauteileerklärung:
 
 ### Widerstände:
