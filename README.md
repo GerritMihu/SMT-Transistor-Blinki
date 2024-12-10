@@ -63,7 +63,7 @@ Lötsaugpumpe, Lötsauglitze
 
 ### Ablauf
 
-Sie können dieses HTML Dokument als unterstützung nutzen um hier ihren Fortschritt zu dokumentieren: [BOM](./bom/SMD-Transistor-Blinker-ibom.html)
+Sie können dieses HTML Dokument als unterstützung nutzen um hier ihren Fortschritt zu dokumentieren: [BOM](http://htmlpreview.github.io/?https://github.com/GerritMihu/SMT-Transistor-Blinki/blob/main/bom/SMD-Transistor-Blinker-ibom.html)
 
 Lötzinn auf der Platine: Setze eine kleine Menge Lötzinn an einem der Lötpads an, um es vorzubereiten.
 
@@ -119,7 +119,7 @@ J1 is the input, this is where the voltage is applied. Either you use two-pin pi
 
 ### Soldering on the board:
 
-You can use this dokument to help you with the placement process: [BOM](./bom/SMD-Transistor-Blinker-ibom.html)
+You can use this dokument to help you with the placement process: [BOM](http://htmlpreview.github.io/?https://github.com/GerritMihu/SMT-Transistor-Blinki/blob/main/bom/SMD-Transistor-Blinker-ibom.html)
 
 
 Apply a small amount of solder to one of the soldering pads to prepare it.
