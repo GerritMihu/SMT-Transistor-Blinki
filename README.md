@@ -49,13 +49,13 @@ Der J1 ist der Eingang, hier wird die Spannung angelegt. Entweder nimmt man zwei
 
 ### Geräte und Materialen:
 
-Lötstadion
+Lötstation
 
 Feine Lötspitze für präzises Arbeiten
 
 Lötzinn
 
-Multimeter, das man die Polung und die Größe der Bauteile zuordnen kann
+Multimeter, das man die Polung und den Wert der Bauteile zuordnen kann
 
 Pinzette
 
